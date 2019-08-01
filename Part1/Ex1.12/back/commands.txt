@@ -1,0 +1,2 @@
+docker build -t backend-112 .
+docker run -v $(pwd)/logs.txt:/logs.txt -p 1235:8000 backend-112

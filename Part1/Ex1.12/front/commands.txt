@@ -1,0 +1,2 @@
+docker build -t frontend-112 .
+docker run -p 1234:5000 frontend-112
